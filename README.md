@@ -5,20 +5,15 @@ application up and running.
 
 Things you may want to cover:
 
-* Ruby version
+* Ruby version - 2.5.0
+* Rails version - 5.2.2
+* Database creation - replace database.yml.example
 
-* System dependencies
+* Database initialization - run rails db:create, rails db:migrate
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* Import Data run - 
+  -> rails import:users
+  -> rails import:events
+  
+  Check import file log in log folders.
+  
